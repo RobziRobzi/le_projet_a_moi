@@ -10,6 +10,6 @@ if not result.isError():
     print("Valeurs des registres:", result.registers)
 
 # Écriture dans un registre
-client.write_register(address=0, value=17)
+client.write_register(address=0, value=27)
 
 client.close()
