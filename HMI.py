@@ -63,8 +63,8 @@ while True:
             mode_str = "Hiver" if mode == 0 else "Été" if mode == 1 else None
             volet_str = "Ouvert" if volet == 1 else "Fermé"
             print("-"*50)
-            print(f"Lever du soleil : {lever_h:02d}h{lever_m:02d} ")
-            print(f"Coucher du soleil : {coucher_h:02d}h{coucher_m:02d} ")
+            print(f"Lever du soleil : {lever_h:02d}h{lever_m:02d} ({lever:.2f}h)")
+            print(f"Coucher du soleil : {coucher_h:02d}h{coucher_m:02d} ({coucher:.2f}h)")
             print(f"Mode : {mode_str}")
             print(f"Taux d'ensoleillement programmé : {ensoleillement}%")
             print(f"Taux d'ensoleillement réel : {ensoleillement_reel}%")
@@ -88,8 +88,8 @@ while True:
             mode_str = "Hiver" if mode == 0 else "Été" if mode == 1 else None 
             volet_str = "Ouvert" if volet == 1 else "Fermé"
             print("-"*50)
-            print(f"Lever du soleil : {lever_h:02d}h{lever_m:02d} ")
-            print(f"Coucher du soleil : {coucher_h:02d}h{coucher_m:02d} ")
+            print(f"Lever du soleil : {lever_h:02d}h{lever_m:02d} ({lever:.2f}h)")
+            print(f"Coucher du soleil : {coucher_h:02d}h{coucher_m:02d} ({coucher:.2f}h)")
             print(f"Mode : {mode_str}")
             print(f"Taux d'ensoleillement programmé : {ensoleillement}%")
             print(f"Taux d'ensoleillement réel : {ensoleillement_reel}%")
