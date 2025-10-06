@@ -1,5 +1,5 @@
 # le_projet_a_moi
-<!-- Domotique dans une maison connectée ⚡
+Domotique dans une maison connectée ⚡
 
 📌 Description du projet
 
@@ -23,4 +23,3 @@ Les volets électriques seront contrôlés par 3 facteurs principaux :
 Petit plus pour le projet :
 - Si il y a des personnes dans la maison -> garder les volets ouverts pendants la journée
 
---!>
